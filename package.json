@@ -4,6 +4,7 @@
   "description": "Oracle Cloud project",
   "main": "server.js",
   "scripts": {
+    "prepublish": "zip -r target/dhud-server.zip db node_modules routes server manifest.json *.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodejs server/server.js"
   },

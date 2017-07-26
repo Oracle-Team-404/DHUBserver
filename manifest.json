@@ -1,0 +1,7 @@
+
+{
+    "runtime": {
+        "majorVersion": "0.12"
+    },
+    "command": "nodejs server/server.js"
+}
