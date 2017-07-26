@@ -1,0 +1,24 @@
+{
+  "name": "dhud-server",
+  "version": "1.0.0",
+  "description": "Oracle Cloud project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodejs server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oracle-Team-404/DHUD-server.git"
+  },
+  "author": "Allison Butler, Christian Arredondo and David Spires",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oracle-Team-404/DHUD-server/issues"
+  },
+  "homepage": "https://github.com/Oracle-Team-404/DHUD-server#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  }
+}
