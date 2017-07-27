@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/Oracle-Team-404/DHUD-server#readme",
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.15.3",
+    "formidable": "^1.1.1",
     "mysql": "^2.14.0",
     "path": "^0.12.7"
   }

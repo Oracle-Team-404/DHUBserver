@@ -9,7 +9,7 @@ class RouteService {
     }
 
     uploadFile() {
-         return Promise.resolve();
+      return Promise.resolve();
     }
 
     getChartData() {
