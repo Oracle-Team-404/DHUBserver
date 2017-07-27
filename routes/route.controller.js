@@ -34,7 +34,7 @@ class RouteController {
                  res.status(404).send('Error')
              });*/
 
-             RouteService.uploadFile()
+             RouteService.uploadFile(csvFilePath)
                .then(function(result) {
                  res.send('success');
                });
