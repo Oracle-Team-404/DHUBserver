@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Oracle-Team-404/DHUD-server#readme",
   "dependencies": {
     "express": "^4.15.3",
+    "mysql": "^2.14.0",
     "path": "^0.12.7"
   }
 }
