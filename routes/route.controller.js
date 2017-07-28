@@ -14,7 +14,7 @@ class RouteController {
 
      form.on('file', function (field, file)
      {
-         fs.rename(file.path, path.join(form.uploadDir, 'temp.csv'));
+        // fs.rename(file.path, path.join(form.uploadDir, 'temp.csv'));
      });
 
      form.on('error', function (err)
